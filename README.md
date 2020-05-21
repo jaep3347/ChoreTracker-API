@@ -5,7 +5,9 @@ Ruby version 5.2
 Run:
 
 bundle install
+
 rake routes
+
 rails db:migrate
 
 API for tracking chores, used serialization to support various versions of tracking
