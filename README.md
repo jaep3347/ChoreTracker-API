@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby version 5.2
 
-Things you may want to cover:
+Run:
 
-* Ruby version
+bundle install
+rake routes
+rails db:migrate
 
-* System dependencies
+API for tracking chores, used serialization to support various versions of tracking
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run tests using usual rails test files
+Implementation of swagger docs also included (can check functionality of each CRUD operation)
